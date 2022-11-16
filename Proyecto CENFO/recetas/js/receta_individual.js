@@ -19,6 +19,7 @@ const validarFormulario = formulario_receta_individual.addEventListener('submit'
     if (valid === true) {
         // swal('', 'Receta agregada exitosamente', 'success');
         console.log(data);
+        open('../recetas/', '_self');
     }
     if (Categoria.value !== '') {
         data.Categoria = Categoria.value;
@@ -61,3 +62,6 @@ const validarFormulario = formulario_receta_individual.addEventListener('submit'
         Nombre_receta.classList.add('input-error');
     }
 });
+function cancelarbtn() {
+    open("../recetas/index.html", "_self");
+  }

@@ -49,3 +49,6 @@ function agregarObjetivo() {
         console.log('Fecha bien');
     }
 }
+function cancelarbtn() {
+    open("../logros/index.html", "_self");
+  }

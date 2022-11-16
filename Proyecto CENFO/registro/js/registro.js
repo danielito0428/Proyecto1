@@ -22,6 +22,7 @@ const validarFormulario = formulario_registro.addEventListener('submit', (event)
     if (valid === true) {
         //swal('Registrado Exitosamente', 'Gracias por registrarte en Celer!!', 'success');
         console.log(data);
+        open('../perfil/', '_self');
     }
     if (terminos.checked) {
         valid = true;

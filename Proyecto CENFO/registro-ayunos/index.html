@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/carrot.svg">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="css/registro-ayunos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Ayunos | Celer </title>
+</head>
+<script src="js/registro-ayunos.js"></script>
+
+<body>
+    <header class="bg-white">
+        <div class="logo-container">
+            <a href="../inicio/"><img src="../assets/logo-color.svg" alt="Celer Logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-items">
+                <li><a href="../perfil/">Perfil</a></li>
+                <li><a href="../logros/">Logros</a></li>
+                <li class="active"><a href="../registro-ayunos/">Ayunos</a></li>
+                <li><a href="../pesos/">Pesos</a></li>
+                <li><a href="../registro-actividad-fisica/">Actividad Física</a></li>
+                <li><a href="../registro-enfermedades/">Enfermedades</a></li>
+                <li><a href="../recetas/">Recetas</a></li>
+                <li><a href="../inicio/ "><button class="button bg-carrot ">Cerrar Sesión</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="general">
+                <div class="general-logobj">
+                    <div class="logobj">
+                        <div>
+                            <h2 class="small-title">Ayunos en Progreso</h2>
+                        </div>
+                        <div class="logojb-button-content logojb-button rounded">
+                            <h3 class="extra-small-title">Ayuno 1</h3>
+                            <p>10:00 pm</p>
+                            <p>12:00 pm</p>
+                        </div>
+                        <div class="logojb-button-content logojb-button rounded">
+                            <h3 class="extra-small-title">Ayuno 2</h3>
+                            <p>05:00 pm</p>
+                            <p>09:00 pm</p>
+                        </div>
+                        <div class="logojb-button-content logojb-button rounded">
+                            <h3 class="extra-small-title">Ayuno 3</h3>
+                            <p>04:20 pm</p>
+                            <p>08:20 pm</p>
+                        </div>
+                    </div>
+                    <div class="logobj">
+                        <div>
+                            <h2 class="small-title">Agregar nuevo ayuno</h2>
+                        </div>
+                        <div class="logojb-button-content logojb-button rounded">
+                            <h3 class="extra-small-title">Nombre Ayuno</h3>
+                            <div class="logojb-button-content "><input type="text" id="nombre-nuevo-ayuno"></div>
+                        </div>
+                        <div class="logojb-button-content logojb-button rounded">
+                            <h3 class="extra-small-title">Hora inicio</h3>
+                            <div><input type="time" name="Fecha hora inicio" id="hora-inicio"></div>
+                        </div>
+                        <div class="logojb-button-content logojb-button rounded">
+                            <h3 class="extra-small-title">Hora fin</h3>
+                            <div><input type="time" name="Fecha hora final" id="hora-final"></div>
+                        </div>
+                        <div class="contenedor-botones">
+                            <button class="button submit-button-gray" id="btn-agregar" onclick="compararHoras()">Agregar</button>
+                            <button class="button submit-button-red" id="btn-cancelar">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

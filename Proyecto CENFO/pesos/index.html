@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/pesos.css">
+    <title>Pantalla Pesos | Celer</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="general">
+                <div class="content">
+                    <h2 class="small-title">Registro de peso</h2>
+                    <a href="../registro-pesos/index.html"><button class="button bg-gray">Ingresar</button></a>
+                </div>
+
+                <div class="content-2">
+                    <h2 class="small-title right-20">Registro de enfermedades</h2>
+                    <a href="../registro-enfermedades/index.html"><button class="button bg-gray">Ingresar</button></a>
+                </div>
+                <div class="general-enfermedades">
+                    <div class="enfermedades">
+                        <h3 class="extra-small-title">Enfermedad: </h3>
+                        <p class="bottom-10">Anemia</p>
+                        <h4 class="extra-small-title">Descripción: </h4>
+                        <p class="bottom-20">La anemia es una afección que se desarrolla cuando la sangre produce una cantidad inferior a la normal de glóbulos rojos sanos</p>
+                        <h5 class="extra-small-title">Tratamiento: </h5>
+                        <p class="bottom-20">El tratamiento puede incluir oxígeno, analgésicos y líquidos orales e intravenosos para reducir el dolor y prevenir complicaciones</p>
+
+                        <div class="container">
+                            <label class="switch">
+                        <input type="checkbox" class="input">
+                        <div class="rail">
+                            <span class="circle"></span>
+                        </div>
+                        <span class="indicator"></span>
+                    </label>
+                        </div>
+                    </div>
+                    <div class="enfermedades">
+                        <h3 class="extra-small-title">Enfermedad: </h3>
+                        <p class="bottom-10">Asma</p>
+                        <h4 class="extra-small-title">Descripción: </h4>
+                        <p class="bottom-20">El asma es una enfermedad que afecta los pulmones</p>
+                        <h5 class="extra-small-title">Tratamiento: </h5>
+                        <p class="bottom-20">Algunas personas utilizan medicamentos diarios para controlar y prevenir los síntomas. Pero también puede tener medicamentos para usar durante una crisis, como un inhalador de rescate</p>
+                        <div class="container">
+                            <label class="switch">
+                        <input type="checkbox" class="input">
+                        <div class="rail">
+                            <span class="circle"></span>
+                        </div>
+                        <span class="indicator"></span>
+                    </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nombre-fecha bg-gray shadow rounded">
+                <div class="nombre">
+                    <h3 class="small-title">Juan Perez</h3>
+                    <div class="foto-container">
+                        <img src="../assets/juan-perez.jpg" alt="" class="shadow">
+                    </div>
+                </div>
+                <div class="fecha-peso">
+                    <div class="input-container half-width right-20">
+                        <p>Peso Ideal</p>
+                        </br>
+                        <input type="text" disabled="true" id="peso_ideal" value="50 KG" class="right-text bg-white">
+                    </div>
+                    <div class="input-container half-width">
+                        <p>Fecha registro</p>
+                        </br>
+                        <input type="text" id="fecha" name="fecha" disabled="true" value="11/11/2022" class="center-text bg-white">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

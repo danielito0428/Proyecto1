@@ -1,0 +1,53 @@
+main {
+    max-width: 80vw;
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.datos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.datos-container {
+    padding: 20px;
+}
+
+.contenedor-perfil {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto-container {
+    padding: 10px;
+}
+
+.foto-container img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.contenedor-datos {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    justify-content: space-between;
+}
+
+.contenedor-datos input {
+    width: 200;
+}
+
+.nombre-foto {
+    padding: 20px;
+}
+
+main {
+    margin-top: 110px;
+}

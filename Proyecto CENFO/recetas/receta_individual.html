@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/receta_individual.css">
+    <title>Vista Receta | Celer</title>
+</head>
+
+<body>
+    <main>
+        <section class="receta">
+            <form action="" id="formulario_receta_individual">
+                <div class="card-receta bg-white shadow rounded">
+                    <div class="card-top">
+                        <div class="contenedor-inputs">
+                            <span class="extra-small-title">Nombre:</span>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre de la receta" class="full-width">
+                        </div>
+                        <div class="contenedor-inputs">
+                            <span class="extra-small-title">Ingredientes:</span>
+                            <textarea name="ingredientes" id="ingredientes" placeholder="Ingredientes de la receta"></textarea>
+                        </div>
+                        <div class="contenedor-imagen bottom-20 center-text">
+                            <span class="extra-small-title">Subir imagen</span>
+                            <img src="../assets/upload.png" alt="Foto de Receta" class="rounded">
+                        </div>
+                    </div>
+                    <div class="card-mid">
+                        <div class="contenedor-inputs">
+                            <span class="extra-small-title">Preparación:</span>
+                            <textarea name="preparacion" id="preparacion" placeholder="Pasos para realizar la receta:"></textarea>
+                        </div>
+                        <div class="contenedor-inputs">
+                            <span class="extra-small-title right-10">Tipo de Comida:</span>
+                            <input type="text" name="tipo_comida" id="tipo-comida" placeholder="Tipo de comida" class="full-width">
+                        </div>
+                        <div class="contenedor-inputs">
+                            <span class="extra-small-title right-10">Categoria:</span>
+                            <input type="text" name="categoria" id="categoria" placeholder="Categoria" class="full-width">
+                        </div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="botones">
+                            <input type="submit" value="Agregar" class="button submit-button-gray">
+                            <button class="button submit-button-red">
+                                Cancelar
+                             </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="js/receta_individual.js"></script>
+</body>
+
+</html>

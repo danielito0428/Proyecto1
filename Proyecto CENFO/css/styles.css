@@ -1,0 +1,359 @@
+/* Importing fonts and creating general styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap');
+
+/* Footer */
+
+footer {
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+/*Fonts default presets*/
+
+body,
+span,
+input,
+button,
+label,
+select,
+textarea,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.big-title {
+    font-size: 2.2em;
+    margin-bottom: 18px;
+}
+
+.mid-title {
+    font-size: 1.8em;
+    margin-bottom: 18px;
+}
+
+.small-title {
+    font-size: 1.4em;
+    margin-bottom: 18px;
+}
+
+.extra-small-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+
+/* Color palette definitions for font color and weight */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+.link {
+    color: #088cff !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.purple {
+    color: #150050 !important;
+}
+
+.blue {
+    color: #003750 !important;
+}
+
+.green {
+    color: #518F40 !important;
+}
+
+.carrot {
+    color: #F05822 !important;
+}
+
+.gray {
+    color: #D6DFF1 !important;
+}
+
+.white {
+    color: #F4F5FE !important;
+}
+
+
+/* rounded edges */
+
+.rounded {
+    border-radius: 10px;
+}
+
+
+/* Color palette definitions for background color */
+
+.bg-purple {
+    background-color: #150050 !important;
+    color: #F4F5FE;
+}
+
+.bg-blue {
+    background-color: #003750 !important;
+    color: #F4F5FE;
+}
+
+.bg-green {
+    background-color: #518F40 !important;
+    color: #F4F5FE;
+}
+
+.bg-carrot {
+    background-color: #F05822 !important;
+    color: #F4F5FE;
+}
+
+.bg-gray {
+    background-color: #D6DFF1 !important;
+    color: #171717;
+}
+
+.bg-white {
+    background-color: #F4F5FE !important;
+    color: #171717;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+
+/* Presets for inputs and selects*/
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #D6DFF1;
+}
+
+textarea {
+    padding: 20px 20px 0px;
+    outline: none;
+    width: 100%;
+    resize: vertical;
+    min-height: 3em;
+    max-height: 9em;
+}
+
+input:hover,
+select:hover {
+    border: 1px solid #969ca9;
+}
+
+input:focus,
+input:active,
+textarea:focus,
+textarea:active {
+    outline: none !important;
+    border: 1px solid #828fab;
+}
+
+input[type='submit']:hover {
+    cursor: pointer;
+}
+
+.input-error {
+    border: 1px solid #ff4632;
+}
+
+
+/*Checkboxes styles*/
+
+.container .switch {
+    height: 35px;
+    width: 85px;
+    background-color: #D6DFF1;
+    padding: 0 1.5rem;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .switch .input {
+    display: none;
+}
+
+.container .switch .rail {
+    position: relative;
+    width: 40px;
+    height: 15px;
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.container .switch .rail .circle {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #2a2a2a;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    transition: transform 0.4s;
+}
+
+.container .switch .indicator {
+    width: 15px;
+    height: 15px;
+    background-color: #ff0303a0;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    transition: 0.4s;
+}
+
+.container .switch .input:checked~.rail .circle {
+    transform: translate(36px, -50%);
+}
+
+.container .switch .input:checked~.indicator {
+    background-color: #00ff0080;
+}
+
+
+/* Box shadow*/
+
+.shadow {
+    box-shadow: 0px 11px 13px -4px rgba(0, 0, 0, 0.373);
+    -webkit-box-shadow: 0px 11px 13px -4px rgba(0, 0, 0, 0.155);
+    -moz-box-shadow: 0px 11px 13px -4px rgba(0, 0, 0, 0.274);
+}
+
+
+/*Widths for content and containers presets*/
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 45%;
+}
+
+.third-width {
+    width: 30%;
+}
+
+
+/*Margins preset*/
+
+.bottom-10 {
+    margin-bottom: 10px;
+}
+
+.bottom-20 {
+    margin-bottom: 20px;
+}
+
+.bottom-30 {
+    margin-bottom: 30px;
+}
+
+.right-10 {
+    margin-right: 10px;
+}
+
+.right-20 {
+    margin-right: 20px;
+}
+
+.right-30 {
+    margin-right: 30px;
+}
+
+
+/* Button styles*/
+
+.button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+}
+
+.submit-button-green {
+    background-color: #518F40;
+    color: #F4F5FE;
+}
+
+.submit-button-green:hover {
+    background-color: #3b682e;
+}
+
+.submit-button-red {
+    background-color: #e34949;
+    color: #F4F5FE;
+}
+
+.submit-button-red:hover {
+    background-color: #ca4646;
+}
+
+.submit-button-gray {
+    background-color: #5a5a5a;
+    color: #F4F5FE;
+}
+
+.submit-button-gray:hover {
+    background-color: #424242;
+}
+
+
+/* Clase para imagenes con contenedor*/
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
+.image-container img {
+    max-width: 90px;
+}

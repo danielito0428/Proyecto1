@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/registro-pesos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Registro pesos | Celer</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="general">
+                <div class="content">
+                    <div class="regresar bottom-30">
+                        <a href="../pesos/index.html"><button class="button bg-gray">Regresar</button></a>
+                    </div>
+                    <form action="" id="formulario_registro_peso">
+                        <h2 class="small-title bottom-30 center-text">Registrar un nuevo peso</h2>
+                        <div class="cajas">
+                            <p class="extra-small-title">Nuevo peso: </p>
+                            <input type="number" name="nuevo_peso" id="nuevo-peso">
+                        </div>
+                        <div class="cajas ">
+                            <p class="extra-small-title">Peso anterior: </p>
+                            <input type="number" name="peso_anterior" id="peso-anterior">
+                        </div>
+                        <input type="submit" class="button bg-green bottom-30" id="agregar" name="agregar" value="Agregar">
+                    </form>
+                    <div class="content-3 ">
+                        <div class="calcular bottom-10">
+                            <p class="extra-small-title">Calcular IMC</p>
+                            <button class="button bg-gray" id="calcular ">Calcular</button>
+                        </div>
+                        <div class="imc-2">
+                            <p class="extra-small-title">IMC actual:</p>
+                            <input type="number" disabled="true" value="222040.8" name="imc_actual" id="imc-actual">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-2 ">
+                    <h2 class="small-title bottom-30 center-text">Historial de pesos</h2>
+                    <div class="imc-2">
+                        <p class="extra-small-title">Peso actual (kg):</p>
+                        <input type="number" disabled="true" name="peso_actual" id="peso-actual" value="90">
+                    </div>
+                    <div class="imc-2 bottom-20">
+                        <p class="extra-small-title">Peso ideal (kg):</p>
+                        <input type="number" disabled="true" name="peso_ideal" id="peso-ideal" value="95">
+                    </div>
+                    <div class="grafico">
+                        <h3 class="extra-small-title center-text bottom-30">Gráfico de pesos agregados</h3>
+                        <img src="img/grafico.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/registro-peso.js"></script>
+</body>
+
+</html>

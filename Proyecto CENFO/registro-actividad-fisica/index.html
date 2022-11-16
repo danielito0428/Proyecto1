@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/registro-actividad-fisica.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Registro pesos | Celer</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="general">
+                <div class="content">
+
+                    <form action="">
+                        <h2 class="small-title bottom-30 center-text">Registrar una actividad física</h2>
+                        <div class="cajas">
+                            <label for="nueva-actividad" class="extra-small-title">Nueva actividad:</label>
+                            <select id="nueva-actividad" class="half-width">
+                                <option value=""></option>
+                                <option value="Ciclismo">Ciclismo</option>
+                                <option value="Senderismo">Senderismo</option>
+                                <option value="Boxeo">Boxeo</option>
+                                <option value="Fútbol">Fútbol</option>
+                                <option value="Golf">Golf</option>
+                                <option value="Baloncesto">Baloncesto</option>
+                                <option value="Natación">Natación</option>
+                                <option value="Gimnasia">Gimnasia</option>
+                                <option value="Rugby">Rugby</option>
+                            </select>
+                        </div>
+                        <div class="cajas ">
+
+                            <label for="inicio" class="extra-small-title">Hora de inicio:</label>
+                            <input type="number" id="inicio" class="half-width" min="0" max="24">
+
+
+                        </div>
+                        <div class="cajas">
+                            <label for="final" class="extra-small-title">Hora de finalización:</label>
+                            <input type="number" class="half-width" id="final" min="0" max="24">
+
+
+                        </div>
+                        <div class="cajas">
+                            <label for="fecha" class="extra-small-title">Fecha realizada:</label>
+                            <input type="date" class="half-width" id="fecha">
+                        </div>
+
+                        <button type="button" class="button bg-green bottom-30" id="btn-agregar">Agregar</button>
+                    </form>
+                    <div id="div-info-actividad">
+
+                    </div>
+                    <div id="div-info-horas">
+
+                    </div>
+
+
+
+                </div>
+                <div class="content-2 ">
+                    <h2 class="small-title bottom-30 center-text">Historial de actividad físisca</h2>
+                    <div class="imc-2">
+
+                        <label for="actividad-fisica" class="extra-small-title">Actividad física:</label>
+                        <input type="text" id="actividad-fisica" disabled="true" value="">
+                    </div>
+                    <div class="imc-2 bottom-20">
+                        <label for="actividad-fisica" class="extra-small-title">Horas totales:</label>
+                        <input type="text" id="horas-totales" disabled="true" value="">
+                    </div>
+                    <div class="grafico">
+                        <h3 class="extra-small-title center-text bottom-30">Gráfico de horas totales</h3>
+                        <img src="img/grafico.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/registro-actividad-fisica.js"></script>
+</body>
+
+</html>

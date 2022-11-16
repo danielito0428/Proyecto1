@@ -1,0 +1,145 @@
+main {
+    display: flex;
+}
+
+section {
+    display: flex;
+    width: 80vw;
+    min-height: 90vh;
+    margin: 0 auto;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.nombre-fecha {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.nav {
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+}
+
+.content {
+    padding: 20px;
+    width: 500px;
+    margin-top: 30px;
+    height: 100px;
+}
+
+.content-2 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 500px;
+    height: 100px;
+}
+
+.general-logobj {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nuevo-objetivo {
+    max-width: 600px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-inputs select,
+.contenedor-inputs input {
+    margin-top: 10px;
+}
+
+.general-logobj-C {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.logobj {
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+}
+
+.logojb-button {
+    background-color: #d6dff1;
+    padding-top: 0.5em;
+    padding-bottom: 0.1em;
+    margin-bottom: 20px;
+}
+
+.logojb-button-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.nombre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+
+.foto-container {
+    padding: 10px;
+}
+
+.foto-container img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.ingresar-peso {
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fecha-peso {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: right;
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+}
+
+.extra-small-title {
+    margin-bottom: 0px;
+}

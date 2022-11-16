@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/carrot.svg">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <title>Perfil | Celer</title>
+</head>
+
+<body>
+    <header class="bg-white">
+        <div class="logo-container">
+            <a href="../inicio/"><img src="../assets/logo-color.svg" alt="Celer Logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-items">
+                <li class="active"><a href="#">Perfil</a></li>
+                <li><a href="../logros/">Logros</a></li>
+                <li><a href="../registro-ayunos/">Ayunos</a></li>
+                <li><a href="../pesos/">Pesos</a></li>
+                <li><a href="../registro-actividad-fisica/">Actividad Física</a></li>
+                <li><a href="../registro-enfermedades/">Enfermedades</a></li>
+                <li><a href="../recetas/">Recetas</a></li>
+                <li><a href="../inicio/"><button class="button bg-carrot">Cerrar Sesión</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="datos">
+            <div class="datos-container">
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Peso actual</label>
+                    <input type="text" disabled="true" value="80kg" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Genero</label>
+                    <input type="text" disabled="true" value="Masculino" class="center-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Edad</label>
+                    <input type="text" disabled="true" value="20" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Fecha de nacimiento</label>
+                    <input type="text" disabled="true" value="10/05/2002" class="center-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Estatura</label>
+                    <input type="text" disabled="true" value="188cm" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Correo</label>
+                    <input type="text" disabled="true" value="juan-perez@gmail.com" class="center-text">
+                </div>
+                <div class="contenedor-datos bottom-10">
+                    <label class="right-20 extra-small-title">Peso actual</label>
+                    <button type="button" id="btn-actualizar" class="button bg-gray">Actualizar</button>
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Peso ideal</label>
+                    <input type="text" disabled="true" value="80kg" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">IMC</label>
+                    <input type="text" disabled="true" value="25.0" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Proteina a consumir</label>
+                    <input type="text" disabled="true" value="500g" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Agua a consumir</label>
+                    <input type="text" disabled="true" value="2L" class="right-text">
+                </div>
+                <div class="contenedor-datos">
+                    <label class="right-20 extra-small-title">Actividad física</label>
+                    <button type="button" id="btn-actividad" class="button bg-gray">Registrar</button>
+                </div>
+                <div class="contenedor-grafico"><img src="../assets/grafico-cantidad.PNG" alt=""></div>
+            </div>
+            <div class="contenedor-perfil">
+                <div class="nombre-foto">
+                    <h1 class="mid-title center-text">Juan Perez</h1>
+                    <div class="foto-container">
+                        <img class="shadow" src="/assets/juan-perez.jpg" alt="">
+                    </div>
+                </div>
+                <div class="contenedor-grafico-horas">
+                    <img src="img/reporte.png" alt="">
+                    <img src="img/reporte.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

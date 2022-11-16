@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/logros-Objetivos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Nuevo objetivo | Celer </title>
+</head>
+
+
+<body>
+    <main>
+        <section>
+            <div class="general">
+                <div class="content">
+                    <h2 class="small-title center-text">Nuevo objetivo</h2>
+                </div>
+                <div class="nuevo-objetivo bg-white rounded shadow">
+                    <div class="contenedor-inputs">
+                        <h3 class="extra-small-title">Nombre del Objetivo</h3>
+                        <input id="nombre-Objetivo">
+                    </div>
+                    <div class="contenedor-inputs">
+                        <h3 class="extra-small-title">Tipo de objetivo</h3>
+                        <select id="listado-objetivo" class="full-width">
+                            <option value=""></option>
+                            <option value="Ayuno">Ayuno</option>
+                            <option value="Peso">Peso</option>
+                            <option value="IMC">IMC</option>
+                        </select>
+                    </div>
+                    <div class="contenedor-inputs">
+                        <h3 class="extra-small-title">Meta</h3>
+                        <input id="input-meta">
+                    </div>
+                    <div class="contenedor-inputs">
+                        <h3 class="extra-small-title">Fecha inicio</h3>
+                        <label for="start"></label>
+                        <input type="date" id="fInicio" class="full-width" name="Fecha meta" min="2022-11-15" max="2023-12-30">
+                    </div>
+                    <div class="contenedor-inputs bottom-20">
+                        <h3 class="extra-small-title">Fecha meta</h3>
+                        <label for="start"></label>
+                        <input type="date" id="fMeta" class="full-width" name="Fecha meta" min="2022-11-15" max="2023-12-30">
+                    </div>
+                    <div class="card-bottom">
+                        <div class="botones">
+                            <button class="button submit-button-gray" id="btn-agregar" onclick="agregarObjetivo()">
+                                Agregar
+                            </button>
+                            <button class="button submit-button-red">
+                                Cancelar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/logros.js"></script>
+</body>
+
+</html>

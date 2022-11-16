@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/carrot.svg">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="css/recetas.css">
+    <title>Recetas | Celer</title>
+</head>
+
+<body>
+    <header class="bg-white">
+        <div class="logo-container">
+            <a href="../inicio/"><img src="../assets/logo-color.svg" alt="Celer Logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-items">
+                <li><a href="../perfil/">Perfil</a></li>
+                <li><a href="../logros/">Logros</a></li>
+                <li><a href="../registro-ayunos/">Ayunos</a></li>
+                <li><a href="../pesos/">Pesos</a></li>
+                <li><a href="../registro-actividad-fisica/">Actividad Física</a></li>
+                <li><a href="../registro-enfermedades/">Enfermedades</a></li>
+                <li class="active"><a href="#">Recetas</a></li>
+                <li><a href="../inicio/ "><button class="button bg-carrot ">Cerrar Sesión</button></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="primer-nivel ">
+            <div class="title-wrapper ">
+                <h1 class="mid-title center-text ">Recetas</h1>
+            </div>
+            <div class="filtros ">
+                <div class="filtros-contenedor ">
+                    <select class="right-30 ">
+                        <option value="Desayuno ">Desayuno</option>
+                        <option value="Almuerzo ">Almuerzo</option>
+                        <option value="Cena ">Cena</option>
+                    </select>
+                    <div class="search-bar ">
+                        <input type="search " placeholder="Buscar receta ">
+                    </div>
+                </div>
+                <a href="receta_individual.html "><button class="button submit-button-green ">Agregar Receta</button></a>
+            </div>
+        </section>
+        <div class="receta bg-white shadow rounded ">
+            <div class="receta-content ">
+                <div class="content-wrapper ">
+                    <h3 class="extra-small-title right-10 ">Nombre:</h3>
+                    <span>Gallo Pinto</span>
+                </div>
+                <div class="content-wrapper ">
+                    <h3 class="extra-small-title right-10 ">Tipo de Comida:</h3>
+                    <span>Desayuno</span>
+                </div>
+                <div class="content-wrapper ">
+                    <h3 class="extra-small-title right-10 ">Categoria</h3>
+                    <span>Carbohidratos</span>
+                </div>
+            </div>
+            <div class="imagen-receta ">
+                <img src="img/gallopinto.jpg " alt="Foto de Receta ">
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

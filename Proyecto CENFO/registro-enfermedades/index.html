@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/registro-enfermedades.css">
+
+    <title>Registro enfermedades | Celer</title>
+</head>
+
+<body>
+    <main>
+        <div class="top-wrapper bottom-20">
+            <a href="../pesos/index.html"><button class="button bg-gray">Regresar</button></a>
+            <h1 class="mid-title">Registrar una nueva enfermedad</h1>
+        </div>
+        <section class="registro-enfermedad">
+            <div class="general">
+                <div>
+                    <h3 class="extra-small-title">Nombre de la enfermedad: </h3>
+                    <input type="text" name="nombre_enfermedad" id="nombre_enfermedad">
+                </div>
+                <div>
+                    <h3 class="extra-small-title">Ingresar descripción: </h3>
+                    <input type="text" name="descripcion" id="descripcion">
+                </div>
+                <div>
+                    <h3 class="extra-small-title">Tratamientos: </h3>
+                    <input type="text" name="tratamiento" id="tratamiento">
+                </div>
+                <div>
+                    <button id="btnAgregar" name="btnAgregar" class="button bg-green">Agregar</button>
+                </div>
+            </div>
+            <div class="general-enfermedades">
+                <div class="enfermedades">
+                    <h3 class="extra-small-title">Enfermedad: </h3>
+                    <p class="bottom-10">Anemia</p>
+                    <h4 class="extra-small-title">Descripción: </h4>
+                    <p class="bottom-20">La anemia es una afección que se desarrolla cuando la sangre produce una cantidad inferior a la normal de glóbulos rojos sanos</p>
+                    <h5 class="extra-small-title">Tratamiento: </h5>
+                    <p class="bottom-20">El tratamiento puede incluir oxígeno, analgésicos y líquidos orales e intravenosos para reducir el dolor y prevenir complicaciones</p>
+
+
+                    <div class="container">
+                        <label class="switch">
+                    <input type="checkbox" class="input">
+                    <div class="rail">
+                        <span class="circle"></span>
+                    </div>
+                    <span class="indicator"></span>
+                </label>
+                    </div>
+                </div>
+                <div class="enfermedades">
+                    <h3 class="extra-small-title">Enfermedad: </h3>
+                    <p class="bottom-10">Asma</p>
+                    <h4 class="extra-small-title">Descripción: </h4>
+                    <p class="bottom-20">El asma es una enfermedad que afecta los pulmones</p>
+                    <h5 class="extra-small-title">Tratamiento: </h5>
+                    <p class="bottom-20">Algunas personas utilizan medicamentos diarios para controlar y prevenir los síntomas. Pero también puede tener medicamentos para usar durante una crisis, como un inhalador de rescate</p>
+                    <div class="container">
+                        <label class="switch">
+                    <input type="checkbox" class="input">
+                    <div class="rail">
+                        <span class="circle"></span>
+                    </div>
+                    <span class="indicator"></span>
+                </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/registro-enfermedades.js"></script>
+</body>
+
+</html>

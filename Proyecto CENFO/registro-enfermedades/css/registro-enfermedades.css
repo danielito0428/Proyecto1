@@ -1,0 +1,61 @@
+main {
+    margin: 0 auto;
+    min-height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registro-enfermedad {
+    display: flex;
+    justify-content: center;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+}
+
+.general-enfermedades {
+    padding: 20px;
+    width: 100%;
+}
+
+.general-enfermedades {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.enfermedades {
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.top-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+.top-wrapper a {
+    flex: 1;
+}
+
+.top-wrapper .mid-title {
+    margin-bottom: 0;
+    flex: 2;
+    font-size: 1.5em;
+}
+.input-error {
+    border: 1px solid red;
+}
